@@ -55,3 +55,17 @@ terranxt-site: finished site for the product company. UX decisions inherited are
 ## Update: all inner pages on one template
 - Technovision, Training, Projects, ESG, Our companies rebuilt on the service template (hero with glance panel, sticky nav, overview or cards, timeline, band, FAQ, closer). Global presence, News and Life got the new hero and sticky layout; their content blocks are unchanged. Legal pages and 404 keep the simple hero (no glance).
 - Static audit (all 21 pages): no duplicate ids, no missing files, no dead anchors, every image has alt, one h1 per page, titles and meta present. Remaining gaps are content placeholders listed in docs/05-LAUNCH-CHECKLIST.md.
+
+## Update: sub-page rebuild (Technovision, Projects, ESG, Training)
+These four pages now follow the same flow as the What we do and Company pages: dark hero with glance panel > sticky in-page nav > overview split > main content (rows or timeline) > dark fact band > FAQ > Previous/Next > dark closing CTA. White and sand sections alternate; no two neighbours share a background. Next/previous chain: Technovision > Projects > ESG > Training > Contact.
+Global fixes: added missing .stack and .muted styles; all pages checked for same-background neighbours; static audit run on all 21 pages (ids, files, anchors, alt, h1).
+Unfilled content stays in [square brackets]: project data, ESG policies, course details, Odoo scope.
+
+## Update: stakeholder-review round
+- Placeholders removed from every page. History now uses the live astongreens.com timeline (2019 to 2025) plus Terranxt 2023 and the 2025-26 target. Mission and vision come from the live Mission and Vision pages. News uses the live items (NSDC accreditation, Solar & Storage Live KSA 2025, G20 Working Group Exhibition, SuryaCon Ahmedabad).
+- Removed (no real content yet): client logo strip, senior-team section, named projects (replaced by project types), course list beyond the NSDC Suryamitra course. Legal pages carry short draft text marked "pending legal review".
+- Open conflict: the live site History says the company began in 2019; the owner-confirmed facts say Founded 2010 / 10+ years. Decide one and align About, Home and History.
+- Fixes: dropdown hover colour, "~50 MW" on one line, active step in What we do, closer and footer hierarchy, prev/next cards, mobile sideways scroll for card rows, smoother pinned history (single rAF loop, no per-frame measuring).
+
+## Update: light refresh
+Only heroes stay dark. Fact bands, closing CTA, History and the footer are now white or very light green. Projects, news and life events render from js/data.js (containers marked data-render in the HTML). Stakeholder brief items about tours, valuations and listings were ignored (pasted by mistake).

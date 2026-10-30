@@ -36,3 +36,13 @@
 
 - [ ] Talk-to-us button: confirm WhatsApp number (+91 95554 88080) and the CEO call hours.
 - [ ] Forms: connect to Odoo (they only show a thank-you state today).
+
+- [ ] Replace Unsplash stand-in photos (see docs/IMAGE-CREDITS.md) with real Astongreens photos. Projects, portraits, logos and event photos are still placeholders because they must be real.
+
+- [ ] Decide company start year (2010 vs 2019) and align About, Home and History.
+- [ ] Replace Unsplash city and stand-in photos with real Astongreens photos; add real project names, MW, client logos when approved.
+- [ ] Legal: replace the draft Privacy, Terms and Cookies text.
+
+- [ ] Add real projects, news and life photos in js/data.js (one object per item). Instructions are at the top of that file.
+
+- [ ] Company profile PDF: add a "Download company profile" link on the home page numbers section once the file exists (removed for now, it had no file).
